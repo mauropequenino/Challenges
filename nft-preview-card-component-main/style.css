@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+:root {
+
+/*  Primary */
+
+--soft-blue: hsl(215, 51%, 70%);
+--cyan: hsl(178, 100%, 50%);
+
+/*  Neutral */
+
+--very-dark-blue1: hsl(217, 54%, 11%);
+--very-dark-blue2: hsl(216, 50%, 16%);
+--very-dark-blue3: hsl(215, 32%, 27%);
+--white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--very-dark-blue1);
+    font-family: "Outfit", sans-serif;
+    margin: 2% auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elements {
+    width: 300px;
+    background-color: var(--very-dark-blue2);
+    border-radius: 10px;
+    padding: 20px; 
+       
+}
+
+.description img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.description h3 {
+    color: var(--white);
+    margin-top: 15px;
+}
+
+.description p {
+    color: var(--soft-blue);
+    font-size: 14px;
+    margin: 20px 0 10px 0;
+}
+
+.price_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    
+}
+
+.coin {
+    color: var(--cyan);
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.coin img {
+    width: 8px;
+    margin-right: 5px;
+}
+
+.time {
+    align-items: center;
+    color: var(--soft-blue);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.time img {
+    width: 12px;
+    margin-right: 5px;
+}
+
+.creator {
+    border-top: 1px solid var(--very-dark-blue3);
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0 5px;
+    
+
+}
+
+.creator img {
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    border: 2px solid peru;  
+    margin-right: 10px;
+}
+
+.creator {
+    color: var(--soft-blue);
+}
+.creator span {
+    color: var(--white);
+}
+
+
